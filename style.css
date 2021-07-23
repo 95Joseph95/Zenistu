@@ -6,14 +6,14 @@ h2 {
   
 }
 body{
- background-color: blueviolet;
+ background-color: blueviolet; background-image: image(download.jfif);
     }
 h1{ background-color: black;
   
 }
 
 p{
-  font-size: 25px; color: goldenrod;  font-style: oblique; font-family: 'Times New Roman', Times, serif; background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0531%2F1306%2F1541%2Ffiles%2Fzenitsu_thunder_1024x1024.jpg%3Fv%3D1614418125&imgrefurl=https%3A%2F%2Fdemonslayer-world.com%2Fblogs%2Fblog%2Feverything-you-need-to-know-about-zenitsu-agatsuma&tbnid=6rYKc4AvBI9lZM&vet=12ahUKEwjmsOPg9fnxAhWpmq0KHTmODN4QMygWegUIARCOAg..i&docid=eFvYr5AfX0ZurM&w=1024&h=576&q=zenitsu&ved=2ahUKEwjmsOPg9fnxAhWpmq0KHTmODN4QMygWegUIARCOAg);
+  font-size: 25px; color: goldenrod;  font-style: oblique; font-family: 'Times New Roman', Times, serif; 
 }
 
 
