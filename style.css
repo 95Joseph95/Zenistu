@@ -4,6 +4,9 @@ body{background-color: blueviolet; background-image: image(download.jfif);}
 
 p{font-size: 25px; color: goldenrod;  font-style: oblique; font-family: 'Times New Roman', Times, serif;}
 
+.links{
+  text-align: left; background-color: black; font-size: 30px;
+}
 
 
 
