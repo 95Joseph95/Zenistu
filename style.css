@@ -1,13 +1,17 @@
 h1 {color: darkorange;font-family: 'Times New Roman', Times, serif;padding-top: 50px; padding-bottom: 50px; background-color: black; font-size: 50px; text-align: center;}
 
-body{background-color: blueviolet; background-image: image(download.jfif);}
+p{font-size: 25px; color: darkorange;  font-style: oblique; font-family: 'Times New Roman', Times, serif; margin: 20px; }
 
-p{font-size: 25px; color: goldenrod;  font-style: oblique; font-family: 'Times New Roman', Times, serif; margin: 20px; 
+body{
+  background-color: blueviolet;
 }
-
 .links{text-align: left; background-color: black; font-size: 30px;}
 
-
+.picture{
+  display: inline;
+  float: right;
+  padding: 2rem
+}
 
 
 
