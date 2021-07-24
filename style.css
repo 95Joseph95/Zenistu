@@ -1,8 +1,6 @@
-h2 {color: darkorange;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;padding-top: 50px; padding-bottom: 50px; background-color: black; font-size: 50px; text-align: center;}
+h1 {color: darkorange;font-family: 'Times New Roman', Times, serif;padding-top: 50px; padding-bottom: 50px; background-color: black; font-size: 50px; text-align: center;}
 
 body{background-color: blueviolet; background-image: image(download.jfif);}
-
-h1{ background-color: black;}
 
 p{font-size: 25px; color: goldenrod;  font-style: oblique; font-family: 'Times New Roman', Times, serif;}
 
