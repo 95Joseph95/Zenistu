@@ -1,59 +1,47 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Password Generator</title>
+</head>
 
-<html lang="en-US">
+<body>
+  <div class= "container">
+    <h1 class="title">Password Generator</h1>
+    <h3 class="password-display" id="passwordDisplay">Password</h3>
 
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Anime Fan Page!</title>
-  </head>
+    <form id="passwordGeneratorForm" class="form">
+      <label for="characterAmountNumber">Number of Characters</label>
 
-  <body>
-    
-    <h1>Zenitsu, quick as lightning, and scared of his own thunder! </h1>
+      <div class="character-amount-container">
+        <input type="range" min="8" max="128" value="8"
+        id="characterAmountRange">
+        <input class="number-input" type="number" min="8" max="128" value="8" id="characterAmountNumber">
+      </div>
 
-    
-          
-          <img class="picture" src="https://static0.cbrimages.com/wordpress/wp-content/uploads/2020/02/Shonen-Zenitsu-Agatsuma.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5" 
-          width="450px" height="280px">
-         
-          <p>
-          Zenitsu's full name is Zenitsu Agatsuma. It has been confirmed by the mangaka of the Demon Slayer: Kimetsu No Yaibu manga that his name Zenitsu means "goodness" while his surname means "my wife". The creator of the mangaka said in an interview that, when pronouncing his name, lesser emphasis should be given to "zen" and more to "suu." In other words, the last syllable of his name is meant to be dragged out.</p>
-          <P>The name of Zenitsu's master or sensei is Jigoro Kuwajima. He was a strict but kind man who taught Zenitsu the ways of a Demon Slayer. The young boy looked up to him as a father figure and always strove hard to live up to his sensei's expectations. He admired and revered Jigoro, and it was these very feelings for him that helped Zenitsu overcome his cowardly nature.</p>
-          
-          
-          <p><img src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/02/Zenitsu-Protects-Nezuko.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5" 
-          width="450px" height="280px">
-          Despite Tanjiro being a good friend to Zenitsu, the latter is often frustrated with the attitude of the former. This is because what Tanjiro perceives as bravery, Zenitsu sees as a suicide mission. Not only does Tanjiro often land himself in dangerous situations, his friends are often forced to help him out in order to save his life, thus putting theirs in danger as well.</p>
-          <P>It’s been shown that Zenitsu has a very unique way of fighting. Whenever he faces any danger, he usually passes out due to extreme cowardice, and that, in an unconscious state, his subconscious mind takes over, and he fights like a pro. This is because, in this state of mind, his body moves based on pure instinct, which means his level of swordsmanship is very high, as is his ability to defend himself against high ranking demons.</P>
-          
-            
-          <img class="picture" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi8fzBhvDrqvO0_D2PJKQVCIGOg6AVlXRA9w&usqp=CAU" 
-          width="450px" height="280px">
-          <p>When the demon provokes Zenitsu by calling him a coward, the boy doesn’t give in to his emotions. He simply replies calmly that, for someone who simply filled an empty slot in the lowest-ranked of the Upper Moons, Kaigaku sure had a lot of opinions.</p>
-          ><p>In the very same scene, Zenitsu berates Kaigaku for being the reason their sensei committed suicide. It is then revealed that, because Kaigaku became a demon, their master could not bear the shame and committed seppuku, which was a painful and slow death for him. Kaigaku then goes on to berate their sensei, calling him senile.</p>
-          
-          
-          
-          <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsheOlK9f8Ch1jfis9Zf06f2hmimTUdy7Z7w&usqp=CAU" 
-          width="450" height="280px">
-          Zenitsu creates his own form called Seventh Form: Honoikazuchi   Nokami. Through this form, he is able to conjure a creature akin to a dragon that breathes thunder and fire. When combined with God Speed, his power and strength increase, giving him the ability to defeat demons like Kaiju, from the Upper Moon Six.</p> 
-          <p>There are many types of Demon Slayers, and among them are the highly respected <strong>Hashiras</strong>. They are well known for their original styles of Breath and superb fighting abilities. Zenitsu is one of those rare non-Hashia Demon Slayers who’s been able to match the feats of the Hashiras, including creating his own Breathing form and defeating a demon way above his skill level.</p>
-    
-<section>
-    <ul>
-      <li>
-        <h2><a class="links" href="https://www.youtube.com/watch?v=jvNeuPZexLE" target="_blank">
-            <strong>Zenitsu vs Spider Demon</strong></a></h2>
-      
-            <div id="aside"><img src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/02/demon-slayer-zenitsu-thunderclap-and-flash.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5" width="450px" height="280px">
+      <label for="includeUppercase">Include Uppercase</label>
+      <input type="checkbox" id="includeUpperCase">
 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRo1WrrXNhXcYxE6zM3-gJFzvu8VOTxywc1Q&usqp=CAU" height="280px" width="420px"></div>
+      <label for="includeLowercase">Include Lowercase</label>
+      <input type="checkbox" id="includeLowerCase">
 
-        <h2><a class="links" href="https://www.youtube.com/watch?v=cw5WqF6egmA" target="_blank">
-            <strong>Zenitsu's First Bad Ass Moment</strong></a></h2>
-      </li>
-    </ul>
-</section>
-  </body>
+      <label for="includeNumbers">Include Numbers</label>
+      <input type="checkbox" id="includeNumbers">
+
+      <label for="includeSymbols">Include Symbols</label>
+      <input type="checkbox" id="includeSymbols">
+
+
+      <button type="submit" class="btn"> Generate Password</button>
+
+
+
+
+    </form>
+  </div>
+</body>
 </html>
